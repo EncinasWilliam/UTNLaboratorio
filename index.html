@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabajo Practico</title>
+  <link rel="icon" href="img/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+  <!--Inicio de la cabecera etiqueta semantica header, da entender que es el inicio de nuestra
+    pagina web o documento HTML. Esto facilita el procesamiento de busqueda de los navegadores.-->
+  <header id="header">
+    <div class="contenedor">
+      <!--Utilizamos la etiqueta div, basicamente como contenedor o como se lo suele llamar wrap
+          ya que los divs son etiquetas de bloque y se suelen utilizar para contener N elementos. -->
+      <div id="logo-tipo">
+        <span class="engranaje-logo">
+          <!--La etiqueta SPAN se suele utilizar
+                para contener elementos que no son de bloque,
+                es una etiqueta en linea, así que su comportamiento no afecta al modelo de caja.-->
+          S
+        </span>
+        <h3>TP</h3>
+        <!--Las etiquetas h1 a h6,
+        se utilizan para titulos/encabezados y su nivel de importancia más alto es el N° 1 y su nivel menos importante es el H6-->
+      </div>
+      <nav id="menu"> 
+        <!--La Etiqueta semantica NAV, nos da entender que vamos a tener un menu de navegacion,
+        las etiqueta ul significa lista desordenada, y los li la cantida de elementos que vamos a tener
+        en la lista, la etiqueta <a> es de navegacion en este caso nos permitira navegar en las distintas partes de la pagina, ya que estan
+        vinculadas a la etiqueta ID, y responderan a la etiqueta  que contengan dicho a ID. Paso a explicar que los atributos a ID son utilizados
+        para referirnos a elementos unicos, es decir que la accion que se le agregue al ID solo afecta a una unica etiqueta, si queremos
+        afectar a diversas etiquetas sin importar su naturaleza y tipo, debemos utilizar el atributo class.-->
+        <ul>
+          <li><a href="#PS">PS</a></li>
+          <li><a href="#PS2">PS2</a></li>
+          <li><a href="#PS3">PS3</a></li>
+          <li><a href="#PS4">PS4</a></li>
+          <li><a href="#PS5">PS5</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!--Cierre de etiqueta de la cabecera..-->
+
+  <!--Inicio del baner-->
+  <section class="contenedor">
+    <section id="info">
+        <div id="banner">
+          <h1>SONY Y SUS INCREIBLES CONSOLAS!!!</h1>
+        </div>
+
+        <div id="img-SONY">
+          <img src="img/logo-titulo.png" alt="titulo de sony">
+        </div>
+    </section>
+  </section>
+
+    <!--Fin del baner-->
+  <main><!--La etiqueta main es una etiqueta semantica que representa el cuerpo principal de nuestra pagina web.-->
+    <section>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Consola</th>
+            <th>Año de lanzamiento</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>PlayStation 1</td>
+            <td>1994</td>
+          </tr>
+          <tr>
+            <td>PlayStation 2</td>
+            <td>2000</td>
+          </tr>
+          <tr>
+            <td>PlayStation 3</td>
+            <td>2006</td>
+          </tr>
+          <tr>
+            <td>PlayStation 4</td>
+            <td>2013</td>
+          </tr>
+          <tr>
+            <td>PlayStation 5</td>
+            <td>2020</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <article><!--La etiqueta article contiene elementos independientes en este caso contiene varios section que hablan de 
+     distintos modelo de consolas-->
+     <hr><!--representan una linea en todo el ancho del documento-->
+      <section id="PS"> <!--La etiqueta semantica section nos permite tener N secciones en nuestro documento html.-->
+        <h2 class="titulo">Play Station One</h2>
+        <img src="img/ps1.png" class="PS-img"><!--La etiqueta img nos permite colocar imagenes.-->
+        <p>
+          La PSOne (también conocida como PlayStation One) es una consola de videojuegos de la compañía Sony.
+          Fue lanzada en 1994 en Japón y en 1995 en América del Norte, Europa y otros mercados.
+          Es una versión más pequeña de la PlayStation original y se caracteriza por su diseño compacto y elegante.
+        </p>
+        <br>
+        <p>
+          La PSOne es una consola de 32 bits que utiliza discos compactos (CD) para almacenar juegos.
+          Fue una de las primeras consolas de videojuegos en tener gráficos 3D y una unidad de procesamiento de gráficos
+          (GPU) dedicada,
+          lo que permitió un mayor rendimiento y calidad de imagen en comparación con las consolas anteriores.
+        </p>
+        <br><!--los br representan saltos de linea-->
+        <p>
+          La consola tiene una amplia variedad de juegos, incluyendo algunos títulos icónicos como "Final Fantasy VII",
+          "Metal Gear Solid" y "Resident Evil". También cuenta con la capacidad de reproducir películas
+          en DVD con un accesorio adicional llamado PSOne LCD Screen.
+        </p>
+        <br>
+        <p>
+          En términos de conectividad, la PSOne cuenta con puertos para conectar dos controladores,
+          un cable AV para conectarse a un televisor y una ranura
+          para tarjetas de memoria para guardar el progreso del juego.
+        </p>
+        <br>
+        <p>
+          La PSOne fue un gran éxito comercial, vendiendo más de 100 millones de unidades
+          en todo el mundo antes de que fuera descontinuada en 2006. A pesar de su antigüedad,
+          sigue siendo una consola popular entre los coleccionistas de juegos retro
+          y los entusiastas de los videojuegos.
+        </p>
+      </section>
+      <hr><!--representan una linea en todo el ancho del documento-->
+      <section id="PS2">
+        <h2 class="titulo">Play Station 2</h2>
+        <img src="img/ps2.png" class="PS-img">
+        <p>
+          La PlayStation 2 (también conocida como PS2) es una consola de videojuegos lanzada por Sony en el año 2000.
+          Es la sucesora de la PSOne y es considerada como una de
+          las consolas más exitosas en la historia de los videojuegos.
+        </p>
+        <br>
+        <p>
+          La PS2 es una consola de 128 bits que utiliza discos DVD para almacenar juegos.
+          Fue la primera consola en tener una unidad de DVD incorporada,
+          lo que permitió a los desarrolladores de juegos crear títulos más grandes
+          y con mejores gráficos que los posibles con la PSOne.
+        </p>
+        <br>
+        <p>
+          La PS2 también fue la primera consola en tener una unidad de procesamiento de gráficos (GPU) dedicada,
+          lo que permitió una mayor calidad de imagen y una mayor velocidad de procesamiento.
+          Además, la consola incluía un puerto USB que permitía la conexión de dispositivos externos,
+          como el controlador DualShock 2 y dispositivos de almacenamiento como unidades flash USB y discos duros
+          externos.
+        </p>
+        <br>
+        <p>
+          La PS2 cuenta con una amplia variedad de juegos,
+          incluyendo algunos de los títulos más icónicos en la historia de los videojuegos,
+          como "Grand Theft Auto: San Andreas", "God of War", "Shadow of the Colossus" y "Metal Gear Solid 2: Sons of
+          Liberty".
+          También cuenta con la capacidad de reproducir películas en DVD y CDs de música.
+        </p>
+        <br>
+        <p>
+          La PS2 fue un gran éxito comercial, vendiendo más de 155 millones de unidades
+          en todo el mundo antes de que fuera descontinuada en 2013.
+          Su longevidad y popularidad la convierten en una de las consolas
+          más queridas por los jugadores y coleccionistas de juegos retro.
+        </p> <!--La etiqueta P se utiliza para poner texto-->
+        <br> <!--la etiqueta br es un salto de linea-->
+      </section>
+      <hr><!--representan una linea en todo el ancho del documento-->
+      <section id="PS3">
+        <h2 class="titulo">Play Station 3</h2>
+        <img src="img/ps3.png" class="PS-img">
+
+        <p>
+          La PlayStation 3 (también conocida como PS3) es una consola
+          de videojuegos lanzada por Sony en el año 2006.
+          Es la sucesora de la PS2 y una de las consolas más potentes de su época.
+        </p>
+        <br>
+
+        <p>
+          La PS3 es una consola de 128 bits que utiliza discos Blu-ray para almacenar juegos,
+          lo que permitió una capacidad de almacenamiento mucho mayor que la PS2.
+          También cuenta con una unidad de procesamiento de gráficos (GPU) avanzada y un procesador Cell,
+          lo que permitió un mayor rendimiento en términos de gráficos
+          y procesamiento en comparación con las consolas anteriores.
+        </p>
+        <br>
+
+        <p>
+          La PS3 tiene una amplia variedad de juegos, incluyendo algunos títulos icónicos como "The Last of Us",
+          "Uncharted 2: Among Thieves",
+          "Metal Gear Solid 4: Guns of the Patriots"
+          y "Grand Theft Auto IV". Además, la consola cuenta
+          con la capacidad de reproducir películas en Blu-ray y DVD.
+        </p>
+        <br>
+
+        <p>
+          La PS3 también incluye conectividad Wi-Fi, lo que permite la descarga de juegos y contenido adicional,
+          y la posibilidad de conectarse en línea para jugar con otros jugadores a través de PlayStation Network.
+          Además, la consola cuenta con una amplia gama de accesorios, como el controlador inalámbrico DualShock 3,
+          la cámara PlayStation Eye y el controlador de movimiento PlayStation Move.
+        </p>
+        <br>
+
+        <p>
+          La PS3 fue un éxito comercial, vendiendo más de 87 millones de unidades en todo el mundo antes de que fuera
+          descontinuada en 2017.
+          A pesar de su antigüedad, la consola sigue siendo popular entre los jugadores y es considerada una
+          de las mejores consolas de videojuegos de todos los tiempos.
+        </p>
+        <br>
+      </section>
+      <hr><!--representan una linea en todo el ancho del documento-->
+      <section id="PS4">
+        <h2 class="titulo">Play Station 4</h2>
+        <img src="img/ps4.png" class="PS-img">
+        <p>
+          La PlayStation 4 (también conocida como PS4) es una consola de videojuegos
+          lanzada por Sony en el año 2013.
+          Es la sucesora de la PS3 y una de las consolas más populares de su generación.
+        </p>
+        <br>
+
+        <p>
+          La PS4 es una consola de 64 bits que utiliza discos Blu-ray para almacenar juegos,
+          lo que permite una capacidad de almacenamiento mayor que la PS3.
+          Además, cuenta con una unidad de procesamiento de gráficos (GPU) avanzada
+          y un procesador AMD Jaguar de ocho núcleos, lo que permite un mayor rendimiento
+          en términos de gráficos y procesamiento.
+        </p>
+        <br>
+        <p>
+          La PS4 tiene una amplia variedad de juegos, incluyendo algunos títulos icónicos como "The Last of Us Part II",
+          "Uncharted 4: A Thief's End", "God of War" y "Marvel's Spider-Man". Además, la consola cuenta con la capacidad
+          de reproducir películas en Blu-ray y DVD.
+        </p>
+        <br>
+        <p>
+          La PS4 también incluye conectividad Wi-Fi y Bluetooth,
+          lo que permite la descarga de juegos y contenido adicional,
+          y la posibilidad de conectarse en línea para jugar con otros jugadores a través de PlayStation Network.
+          Además,
+          la consola cuenta con una amplia gama de accesorios, como el controlador inalámbrico DualShock 4,
+          la cámara PlayStation Camera y el dispositivo de realidad virtual PlayStation VR.
+        </p>
+        <br>
+        <p>
+          La PS4 ha sido un gran éxito comercial, vendiendo más de 116 millones de unidades en todo el mundo.
+          A pesar de la llegada de su sucesora, la PS5, la PS4 sigue siendo una consola popular
+          y una excelente opción para los jugadores que buscan una amplia biblioteca
+          de juegos y una experiencia de juego fluida y de alta calidad.
+        </p>
+        <br>
+      </section>
+      <hr><!--representan una linea en todo el ancho del documento-->
+      <section id="PS5">
+        <h2 class="titulo">Play Station 5</h2>
+        <img src="img/ps5.png" class="PS-img">
+        <p>
+          La PlayStation 5 (también conocida como PS5) es la consola de videojuegos más reciente
+          lanzada por Sony en noviembre de 2020. Es la sucesora de la PS4
+          y cuenta con una serie de mejoras significativas en comparación con su predecesora.
+        </p>
+        <br>
+        <p>
+          La PS5 utiliza un procesador AMD Zen 2 personalizado con una GPU RDNA 2 personalizada,
+          lo que permite una capacidad de procesamiento y gráficos avanzados,
+          así como una velocidad de carga y renderizado más rápida gracias
+          a su unidad de estado sólido (SSD). La consola también
+          es compatible con juegos en resolución 4K y 8K,
+          y utiliza tecnología de trazado de rayos para un renderizado más realista.
+        </p>
+        <br>
+        <p>
+          La PS5 cuenta con una amplia variedad de juegos,
+          incluyendo títulos exclusivos como "Demon's Souls", "Ratchet & Clank: Rift Apart", y "Spider-Man: Miles
+          Morales". Además,
+          la consola cuenta con la capacidad de reproducir películas en Blu-ray y DVD,
+          y tiene compatibilidad con muchos juegos de la PS4.
+        </p>
+        <br>
+        <p>
+          La PS5 también incluye conectividad Wi-Fi y Bluetooth,
+          lo que permite la descarga de juegos y contenido adicional,
+          y la posibilidad de conectarse en línea para jugar con otros jugadores a través de PlayStation Network.
+          Además, la consola cuenta con una serie de accesorios opcionales, como el controlador inalámbrico DualSense,
+          la cámara HD, y los auriculares inalámbricos PULSE 3D.
+        </p>
+        <br>
+        <p>
+          La PS5 ha sido un gran éxito comercial, con más de 13 millones de unidades
+          vendidas en sus primeros meses de lanzamiento.
+          Es considerada como una de las consolas más avanzadas tecnológicamente
+          y ofrece una experiencia de juego inmersiva
+          y emocionante para los jugadores de todo el mundo.
+        </p>
+        <br>
+      </section>
+    </article><!--fin de la etiqueta article-->
+    <hr><!--representan una linea en todo el ancho del documento-->
+    <hr>
+    <section id="orden-juegos"> 
+      <h2 class="titulo">Mejores juegos de Play Station</h2>
+      <!--a diferencia de la etiqueta ul, una etiqueta ordenada nos enumera los elementos contenidos.-->
+      <ol>
+        <li>The Last of Us Part II</li>
+        <li>God of War</li>
+        <li>Uncharted 4: A Thief's End</li>
+        <li>Bloodborne</li>
+        <li>Persona 5</li>
+        <li>Horizon Zero Dawn</li>
+        <li>Shadow of the Colossus</li>
+        <li>Spider-Man</li>
+        <li>Death Stranding</li>
+        <li>Ratchet & Clank</li>
+      </ol>
+      
+    </section>
+    <h2 class="titulo">The Last of Us Part II</h2>
+    <div id="video">
+      <!-- etiqueta iframe representa un contexto de navegación anidado, el cual permite incrustrar otra página HTML en la página actual.-->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/qPNiIeKMHyg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    
+    <aside id=""> <!--el aside es una etiqueta semantica que suele contener elementos
+    que no se relacionan en profundidad con el tema principal, suele utilizarse para hacer una columna de navegacion o contener formularios-->
+      <form action="/enviar-correo" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+      
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+      
+        <label for="asunto">Asunto:</label>
+        <input type="text" id="asunto" name="asunto" required>
+      
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+      
+        <button type="submit">Enviar</button>
+      </form>
+      <!--La etiqueta form nos indica que contiene un formulario, el label es el titulo del input, y el intput son los valores que el usuario coloca  -->
+    </aside>
+  </main><!--fin de la etiqueta main que contiene todo el cuerpo principal de la pagina-->
+ <br>
+
+ 
+  <footer id="footer"> <!--El pie de pagina o footer
+     es una etiqueta semantica que se utiliza, para indicar que es el final de la pagina-->
+    &#169; 2023 Trabajo practico realizado por Vergauven Federico.
+  </footer>
+</body>
+
+</html>
